@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && wrangler pages deploy out --project-name aureus-pets"
+    "deploy": "next build && wrangler deploy"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
